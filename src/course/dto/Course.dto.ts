@@ -1,9 +1,6 @@
-import { IsInt, IsNumber, IsString } from "class-validator";
+import { IsNumber, IsString } from "class-validator";
 
 export class CourseDto{
-   @IsInt()
-   id : number;
-
    @IsString()
    name : string;
 
